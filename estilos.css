@@ -8,6 +8,16 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    background-image: var(--background);
+    
+}
+
 :root {
     --gradient: linear-gradient(
         to right,
@@ -21,21 +31,17 @@
     --background: linear-gradient(90deg, black, #221133);
 }
 
-body {
-    font-family: 'Bebas Neue', sans-serif;
-    background-image: var(--background);
-    
-}
-
 
 #prin {
-    display: grid;
-    place-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 
     background-image: var(--gradient);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    
 }
+
 
