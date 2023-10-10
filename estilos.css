@@ -1,47 +1,69 @@
-@charset "UTF-8";
-
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 body {
-    font-family: 'Bebas Neue', sans-serif;
-    background-image: var(--background);
-    
+  font-family: 'Bebas Neue', sans-serif;
+  background-image: var(--background);
+
 }
 
 :root {
-    --gradient: linear-gradient(
-        to right,
-        rgb(149 114 252),
-        rgb(67 231 173),
-        rgb(226 212 92)
-    )
+  --gradient: linear-gradient(to right,
+      rgb(149 114 252),
+      rgb(67 231 173),
+      rgb(226 212 92))
 }
 
 :root {
-    --background: linear-gradient(90deg, black, #221133);
+  --background: linear-gradient(90deg, black, #221133);
 }
 
+/* CONFIGURAÇÃO DO MAIN ABAIXO */
 
-#prin {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-
-    background-image: var(--gradient);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
+/* CONFIGURAÇÃO DA TELA INICIAL DE APRESENTAÇÃO */
 
+
+
+.presentation {
+  font-size: 3rem;
+}
+
+/* Config da palavra FULL STACK. */
+.size-fullstack {
+  font-size: 11rem;
+  line-height: 0.8;
+}
+
+/* Config da palavra DEVELOPER. */
+.size-developer {
+  font-size: 18rem;
+  line-height: 0.8;
+}
+
+/* CONFIGURAÇÃO DAS INFORMAÇÕES PESSOAIS. */
+.size-info {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.8rem;
+}
