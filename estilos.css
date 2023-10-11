@@ -51,9 +51,16 @@ body {
 
 /* Config da palavra FULL STACK. */
 .size-fullstack {
+  display: flex;
   font-size: 11rem;
   line-height: 0.8;
 }
+
+h1 a {
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
 
 /* Config da palavra DEVELOPER. */
 .size-developer {
