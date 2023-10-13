@@ -24,7 +24,7 @@
     }
 
     :root {
-        --background: linear-gradient(90deg, black, #221133);
+        --background: linear-gradient(90deg, rgb(1, 18, 73), #150920);
     }
 
     .main {

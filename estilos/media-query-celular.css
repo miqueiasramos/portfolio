@@ -25,7 +25,7 @@
   }
 
   :root {
-    --background: linear-gradient(90deg, black, #221133);
+    --background: linear-gradient(90deg, #221133, #000000);
   }
 
   .main {
@@ -86,7 +86,7 @@
   .size-info {
     display: flex;
     justify-content: center;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin: 20px;
   }
 }
