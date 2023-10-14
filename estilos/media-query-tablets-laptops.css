@@ -45,6 +45,7 @@
         align-items: center;
         font-size: 6.5rem;
         margin: 20px;
+        visibility: hidden;
     }
 
     .size-fullstack {
@@ -52,7 +53,7 @@
         font-size: 7.5rem;
         line-height: 0.8;
         margin: 20px;
-
+        visibility: hidden;
     }
 
     h1 a {
@@ -77,6 +78,7 @@
         font-size: 8rem;
         line-height: 0.8;
         margin: 20px;
+        visibility: hidden;
     }
 
     .size-info {
@@ -85,5 +87,6 @@
         align-items: center;
         margin-left: 23px;
         font-size: 1.8rem;
+        visibility: hidden;
     }
 }
