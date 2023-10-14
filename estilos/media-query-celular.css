@@ -1,4 +1,4 @@
-@media (min-width: 481px) and (max-width: 768px) {
+@media (max-width: 480px){
 
   * {
     margin: 0;
@@ -51,9 +51,9 @@
 
   .size-fullstack {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    font-size: 3.8rem;
+    font-size: 2.4rem;
     line-height: 0.8;
     margin: 20px;
     visibility: hidden;
@@ -80,7 +80,7 @@
   }
 
   .size-developer {
-    font-size: 8rem;
+    font-size: 5rem;
     line-height: 0.8;
     margin: 20px;
     visibility: hidden;
@@ -89,7 +89,7 @@
   .size-info {
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin: 20px;
     visibility: hidden;
   }
