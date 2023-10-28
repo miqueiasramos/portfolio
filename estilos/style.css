@@ -95,7 +95,7 @@ h1 a:hover {
   margin-top: 4rem;
   width: 100%;
   height: 46rem;
-  background-color: aliceblue;
+  background-image: linear-gradient(to right, rgba(8, 24, 255, 0.39), rgb(163, 158, 240)) ;
 
 }
 
@@ -111,6 +111,8 @@ h1 a:hover {
 section p {
   margin: 3.5rem;
   font-size: 2rem;
+  color: aliceblue;
+  text-shadow: black 1px 1px 7px;
 }
 
 
