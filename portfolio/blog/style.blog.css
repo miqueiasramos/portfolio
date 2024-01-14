@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    display: flex;
+    width: auto;
+    border: solid black 2px;
+    background-color: black;
+    color: aliceblue;
+    padding: 3.5rem;
+    justify-content: space-around;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    transform: translateX(-7rem);
+}
+
+
+a {
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+}
+.h2pagina {
+    font-size: 1.2rem;
+    transform: translateX(7rem);
+}
+
+.h2projeto {
+    font-size: 1.2rem;
+    transform: translateX(2rem);
+}
+
+.imglinkedin {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 2rem;
+    transform: translateY(-0.3rem)
+
+}
