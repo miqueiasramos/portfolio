@@ -97,6 +97,32 @@ main div p {
 }
 
 .servicesimg {
+    display: flex;
+    justify-content: space-around;
     
-   
+}
+
+.imgsize {
+    width: 35rem;
+    height: 32rem;
+}
+
+.backgroundservices {
+    width: 35rem;
+    height: 23rem;
+    background-color: black;
+    transform: translateY(-6rem);
+    
+}
+
+.informationservicesh1 {
+    color: aliceblue;
+    font-size: 2rem;
+    transform: translateY(4rem);
+}
+
+.informationservicesh2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    transform: translateY(2rem)
 }
